@@ -1,0 +1,73 @@
+.facebook{
+    color: blue;
+    font-family: Verdana, serif;
+    font-size: xxx-large;
+}
+.descript{
+    font-size: xx-large;
+    font-family: "29LT Bukra Bold Italic", serif;
+}
+.form{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 37%;
+    margin-right: 37%;
+    border: 2px #ffffff solid;
+    border-radius: 10px;
+    background-color: white;
+    font-family: "Times New Roman", serif;
+}
+button{
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    -webkit-text-fill-color: white;
+}
+.signin{
+    background-color: blue;
+}
+.signup{
+    background-color: green;
+}
+.link{
+    color: white;
+}
+input {
+    width: 300px;
+    height: 50px;
+    font-size: larger;
+    border-radius: 8px;
+}
+a{
+    text-decoration-line: none;
+    color: blue;
+}
+@media (max-width: 768px) {
+    .form {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+@media (max-width: 1240px) {
+    .form {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    button {
+        width: 85%;
+    }
+
+    input {
+        width: 85%;
+    }
+}
