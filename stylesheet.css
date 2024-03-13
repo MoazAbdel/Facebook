@@ -43,6 +43,13 @@ a{
     text-decoration-line: none;
     color: blue;
 }
+.signin:hover, .signin:focus {
+  background-color: darken(var(--primary-color), 20%);
+}
+
+.signup:hover, .signup:focus {
+  background-color: darken(var(--secondary-color), 20%);
+}
 @media (max-width: 768px) {
     .form {
         margin-left: 10%;
