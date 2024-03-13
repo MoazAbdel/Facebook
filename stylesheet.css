@@ -1,3 +1,4 @@
+
 .facebook{
     color: blue;
     font-family: Verdana, serif;
@@ -39,16 +40,15 @@ input {
     font-size: larger;
     border-radius: 8px;
 }
+.signin:hover, .signin:focus {
+    background-color: #171743; /* A darker shade of blue */
+}
+.signup:hover, .signup:focus {
+    background-color: #004D00; /* A darker shade of green */
+}
 a{
     text-decoration-line: none;
     color: blue;
-}
-.signin:hover, .signin:focus {
-  background-color: darken(var(--primary-color), 20%);
-}
-
-.signup:hover, .signup:focus {
-  background-color: darken(var(--secondary-color), 20%);
 }
 @media (max-width: 768px) {
     .form {
