@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap');
 .facebook{
     color: blue;
     font-family: Verdana, serif;
@@ -6,7 +6,7 @@
 }
 .descript{
     font-size: xx-large;
-    font-family: "29LT Bukra Bold Italic", serif;
+    font-family: "Amiri Quran", serif;
 }
 .form{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
